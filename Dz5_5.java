@@ -1,6 +1,6 @@
 // Javacore / Tanchenko A.
 /*
- * Given a positive integer, N, define the ’3N+1’ sequence starting from N as follows: 
+ * Given a positive integer, N, define the â€™3N+1â€™ sequence starting from N as follows: 
  * If N is an even number, then divide N by two; but if N is odd, then multiply N by 3 and add 1. 
  * Continue to generate numbers in this way until N becomes equal to 1. 
  * For example, starting from N = 3, which is odd, we multiply by 3 and add 1, giving N = 3*3+1 = 10. 
@@ -40,7 +40,7 @@ class Dz5_5 {
       int n=5;
     ////////////////////////
       
-      System.out.println(" start of series: "+n);
+      System.out.println(" start of '3N+1' series: "+n);
       
       int i=0;
       while(n>1){
